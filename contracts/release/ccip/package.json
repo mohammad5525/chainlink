@@ -50,7 +50,7 @@
     "pnpm": ">=10"
   },
   "dependencies": {
-    "@changesets/cli": "~2.27.8",
+    "@changesets/cli": "~2.29.3",
     "@changesets/get-github-info": "^0.6.0",
     "semver": "^7.6.3"
   },
