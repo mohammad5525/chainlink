@@ -53,7 +53,7 @@ COPY --from=buildgo /chainlink-solana .
 RUN go install ./pkg/solana/cmd/chainlink-solana
 
 # Final image: ubuntu with chainlink binary
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 ARG CHAINLINK_USER=root
 ENV DEBIAN_FRONTEND=noninteractive
